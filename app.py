@@ -49,9 +49,9 @@ def detections_table(result) -> pd.DataFrame:
 
 
 def main() -> None:
-    st.set_page_config(page_title="Detector de residuos", layout="wide")
+    st.set_page_config(page_title="Detector de residuos na natureza", layout="wide")
 
-    st.title("Detector de residuos")
+    st.title("Detector de residuos na natureza")
 
     if not WEIGHTS_PATH.exists():
         st.error(f"Peso nao encontrado: {WEIGHTS_PATH}")
