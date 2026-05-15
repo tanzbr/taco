@@ -1,0 +1,49 @@
+# Ambientes locais
+.venv/
+venv/
+env/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Dataset e artefatos gerados
+dataset/
+output/_temporario/
+output/runs/
+runs/
+wandb/
+mlruns/
+
+# Pesos/modelos e arquivos grandes locais
+*.pt
+!output/best.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# Logs e arquivos temporarios
+*.log
+*.tmp
+*.temp
+
+*.md
+*.docx
+
+# Segredos e configuracoes locais
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
