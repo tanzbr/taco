@@ -7,4 +7,5 @@ Este repositório registra o desenvolvimento de um detector de resíduos para im
 O objetivo é localizar os resíduos na foto e marcar cada detecção com uma caixa.
 
 Dataset: http://tacodataset.org/
+
 App de demonstração dos pesos treinados: https://topicos-em-ia.streamlit.app/
